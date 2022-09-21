@@ -1,21 +1,98 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
+  font-family: "Outfit", sans-serif;
 }
 
-main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #0f182b;
 }
 
 section {
-    height: 600px;
-    width: 400px;
+  height: 500px;
+  width: 300px;
+  background-color: #19263d;
+  border-radius: 15px;
+  color: white;
+}
+
+.conteiner-etherium {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.etherium {
+  height: 260px;
+  width: 260px;
+}
+
+.conteiner-texto {
+  padding-left: 20px;
+}
+
+.numero {
+  font-size: 2rem;
+}
+
+.texto {
+  padding-top: 15px;
+  font-size: 1.5rem;
+  color: #4d5d76;
+}
+
+.iconos {
+  padding-top: 15px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.primero {
+  display: flex;
+  align-items: center;
+}
+
+.primero > p {
+  padding-left: 10px;
+}
+
+.segundo {
+  display: flex;
+  align-items: center;
+}
+
+.segundo > p {
+  padding-left: 10px;
+  color: #4d5d76;
+}
+
+.conteiner-avatar {
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+  font-size: 12;
+}
+
+.avatar {
+  height: 30px;
+  width: 30px;
+}
+
+.conteiner-avatar > p {
+  padding-left: 8px;
+}
+
+.creation-of {
+  color: #4d5d76;
 }
